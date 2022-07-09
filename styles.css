@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+
+h1, h2, h3 {
+    font-family: 'itc-benguiat', serif;
+    color: #ff1515;
+    text-shadow: 2px 2px #1e193c;
+    text-align: center; 
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+section {
+    
+    color: white;
+    
+}
+
+table {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #1e0707;
+    border: 3px solid #ff1515;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 500px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: black;
+    font-weight: 300;
+    font-family: 'itc-benguiat', serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff1515;
+}
+
+#background-color {
+    background-color: #3a5fe5;
+    border: 3px solid #ff1515;
+    border-radius: 5px;
+}
+
+#highest{
+background-color: green;
+color: black;
+}
+
+#second{
+background-color: greenyellow;
+color: black;
+}
+
+#third{
+background-color: yellow;
+color: black;
+}
+
+#lowest{
+background-color: red;
+color: black;
+}
+
+#helpful-links {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.code {
+    font-family: monospace;
+    background-color: #1e193c;
+}
