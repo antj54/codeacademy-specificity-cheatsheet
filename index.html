@@ -9,6 +9,37 @@
     <link rel="stylesheet" href="https://use.typekit.net/gsb0zpg.css">
 </head>
 <body>
-    
+    <h1>CSS Specificity</h1>
+    <h2>It Doesn't Have to Be Scary</h2>
+    <p>Every CSS selector has its place in the specificity hierarchy. There are four categories which define the specificity level of a selector.<br>See the table below.</p>
+    <table>
+        <tr>
+            <th>Specificity Level</th>
+            <th>Selector</th>
+            <th>Example</th>
+        </tr>
+        <tr>
+            <td id="highest">Highest</td>
+            <td>Inline Styles</td>
+            <td>&lt;h1 style="color: pink;"&gt;</td>
+        </tr>
+        <tr>
+            <td id="second">Second</td>
+            <td>IDs</td>
+            <td>#navbar</td>
+        </tr>
+        <tr>
+            <td id="third">Third</td>
+            <td>Classes</td>
+            <td>.test, :hover</td>
+        </tr>
+        <tr>
+            <td id="lowest">Lowest</td>
+            <td>Elements</td>
+            <td>h1</td>
+        </tr>
+
+
+    </table>
 </body>
 </html>
